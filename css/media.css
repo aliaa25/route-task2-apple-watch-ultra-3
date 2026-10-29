@@ -1,0 +1,134 @@
+ @media screen and (max-width: 1279px) {
+  .home-des .home-des-text h1 {
+    font-size: 44px;
+  }
+  
+   .products-item {
+    width: 47.5%;
+  }
+} 
+@media screen and (max-width: 1023px) {
+  .container {
+    width: 90%;
+  }
+  .navbar .links {
+    display: none;
+  }
+  .home-content,
+  .review-content {
+    flex-direction: column;
+  }
+  .home-content .home-img,
+  .home-content .home-des {
+    width: 100%;
+  }
+  .features-item {
+    width: 48.5%;
+  }
+  .section-padding {
+    padding: 70px 0;
+  }
+  .products-header h2,
+  .reviews-header h2 {
+    font-size: 36px;
+  }
+  .rating,
+  .people-reviews {
+    width: 100%;
+  }
+  .rating {
+    position: static;
+  }
+  .footer-content {
+    flex-wrap: wrap;
+    gap: 40px;
+  }
+  .footer-about {
+    flex: 1 1 100%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .home-des .home-des-text h1 {
+    font-size: 38px;
+  }
+  .home-des .home-des-text .home-description {
+    font-size: 16px;
+  }
+  .home-des .price .new-price {
+    font-size: 36px;
+  }
+  .navbar .logo h3 {
+    font-size: 17px;
+  }
+  .features-item,
+  .products-item {
+    width: 100%;
+  }
+  .specifications-header h2 {
+    font-size: 32px;
+  }
+  .features-banner {
+    padding: 20px;
+  }
+  .features-banner .banner-dis h3 {
+    font-size: 23px;
+  }
+  .products-header h2,
+  .reviews-header h2 {
+    font-size: 30px;
+  }
+  .products-header p,
+  .reviews-header p {
+    font-size: 15px;
+    margin-bottom: 30px;
+  }
+  .rating,
+  .person,
+  .products-item {
+    padding: 20px;
+  }
+  .person-review .person-info {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+  }
+  .person-meta,
+  .person-meta p {
+    text-align: left;
+  }
+  .mini {
+    flex-direction: column;
+  }
+  .footer {
+    padding: 50px 0 20px;
+  }
+  .footer-content {
+    flex-direction: column;
+    gap: 30px;
+  }
+  .footer-foot {
+    flex-direction: column;
+    text-align: center;
+  }
+  .foot-images {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .home-des .home-des-text h1 {
+    font-size: 30px;
+  }
+  .home-des .price .new-price {
+    font-size: 32px;
+  }
+  .btn {
+    padding: 15px 20px;
+  }
+  .features-banner .banner-btn,
+  .features-banner .banner-btn .btn {
+    width: 100%;
+    text-align: center;
+  }
+}
